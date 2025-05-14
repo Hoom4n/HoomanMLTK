@@ -5,7 +5,7 @@ This project is designed to centralize helpful utilities and abstractions develo
 
 ---
 
-## 📦 Modules
+## Modules
 
 | **Domain** | **Tool / Class**     | **Description** |
 |------------|----------------------|-----------------|
@@ -13,7 +13,7 @@ This project is designed to centralize helpful utilities and abstractions develo
 
 ---
 
-## 📥 Installation
+## Installation
 
 Install the package from [PyPI](https://pypi.org/project/hoomanmltk/) via:
 
