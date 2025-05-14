@@ -13,7 +13,7 @@ setup(
     install_requires=requirements,
     include_package_data=True,
     author="HOOM4N",
-    author_email="hooman-amini-ha3.gmail.com",
+    author_email="homan.amini@gmail.com",
     description="A collection of modular and reusable machine learning utilities, tools, and helpers",
     long_description=long_description,
     long_description_content_type="text/markdown",
