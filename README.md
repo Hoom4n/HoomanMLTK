@@ -9,7 +9,15 @@ This project is designed to centralize helpful utilities and abstractions develo
 
 | **Domain** | **Tool / Class**     | **Description** |
 |------------|----------------------|-----------------|
-| `nlp`      | `TextPreprocessor`   | A flexible and efficient transformer for cleaning tasks including URL removal, contraction expansion, punctuation removal, spell checking, stemming, lemmatization, and more. Supports parallel processing for faster transformations on large datasets. |
+| `nlp`      | `TextPreprocessor`    | A powerful and flexible text preprocessing class built on top of **NLTK**, **TextBlob**, **re**, and **contractions**. It supports a wide range of text transformation tasks, including URL removal, contraction expansion, punctuation removal, spell checking, stemming, and lemmatization. Key features include: |
+|            |                      | - **URL Removal**: Removes URLs to clean up the text. |
+|            |                      | - **Contraction Expansion**: Expands common contractions (e.g., "don't" → "do not"). |
+|            |                      | - **Punctuation Removal**: Strips punctuation to reduce noise. |
+|            |                      | - **Spell Checking**: Corrects spelling errors with **TextBlob**. |
+|            |                      | - **Stemming & Lemmatization**: Reduces words to their base forms using **NLTK**'s stemmers and lemmatizers. |
+|            |                      | - **Parallel Processing**: Accelerates text transformations on large datasets. |
+|            |                      | - **Customizable Options**: Apply only the transformations you need. |
+|            |                      | - **Flexible Output**: Return preprocessed text as a string or a list of tokens. |
 
 ---
 
