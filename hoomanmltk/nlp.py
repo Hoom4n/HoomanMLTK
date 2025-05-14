@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.WARNING)
 
 class TextPreprocessor(BaseEstimator, TransformerMixin):
     """
-    A lexible and efficient transformer for cleaning tasks including URL removal, 
+    A flexible and efficient transformer for cleaning tasks including URL removal, 
     contraction expansion, punctuation removal, spell checking, stemming, lemmatization, 
     and more. Supports parallel processing for faster transformations on large datasets.
     For new updates: github.com/hoom4n/hoomanmltk
